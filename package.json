@@ -1,0 +1,13 @@
+{
+  name:"skodld"
+  ,version:"v0.1.0-1"
+  ,homepage:"http://skod.it"
+  ,main:"skodld"
+  ,repository:{
+    "type":"git"
+    ,url:"git@github.com:tony-o/skodld.git"
+  }
+  ,dependencies:{}
+  ,description:"A quick and easy Damerau Levenshtein implementation (not a Levenshtein only operation which doesn't do look aheads or transpositions)."
+  ,keywords:["matching","levenshtein","damerau","fuzzy","similar","comparisons","compare","comparing","match"]
+}
