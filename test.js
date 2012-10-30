@@ -15,4 +15,3 @@ ld("fuor","four",function(matrix){
 console.log("\nfuor:four,default debug");
 ld("fuor","four",1);
 
-
