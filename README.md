@@ -10,7 +10,7 @@ Damerau-Levenshtein Distance: 1 - in 'fuor' borrowed the 'o' and had to generate
 
 Using skod_levenshteindamerau
 ```bash
-  $ npm install skod_levenshteindamerau
+  $ npm install skodld
 ```
 
 Within your application
