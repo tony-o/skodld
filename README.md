@@ -1,4 +1,6 @@
-skod.it implementation of the Damerau-Levenshtein distance.  This is *not* the Levenshtein distance only, this allows for a look-ahead and substitute at no cost.  IE:
+skod.it implementation of the Damerau-Levenshtein distance.  This is *not* the Levenshtein distance only, this allows for a look-ahead and substitute at no cost.
+Example:
+
 ---
   Comparing: 'four' and 'fuor'
   Levenshtein Distance: 2 - a substitution on the 'o' and the 'u' is required
@@ -6,7 +8,7 @@ skod.it implementation of the Damerau-Levenshtein distance.  This is *not* the L
 ---
 
 Using skod_levenshteindamerau
------------------------------
+
 ---bash
   $ npm install skod_levenshteindamerau
 ---
