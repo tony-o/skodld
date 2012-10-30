@@ -1,10 +1,10 @@
 skod.it implementation of the Damerau-Levenshtein distance.  This is *not* the Levenshtein distance only, this allows for a look-ahead and substitute at no cost.
-Example:
 
+Example:
 ---
-  Comparing: 'four' and 'fuor'
-  Levenshtein Distance: 2 - a substitution on the 'o' and the 'u' is required
-  Damerau-Levenshtein Distance: 1 - in 'fuor' borrowed the 'o' and had to generate the 'o' in the third place again.
+Comparing: 'four' and 'fuor'
+Levenshtein Distance: 2 - a substitution on the 'o' and the 'u' is required
+Damerau-Levenshtein Distance: 1 - in 'fuor' borrowed the 'o' and had to generate the 'o' in the third place again.
 ---
 
 Using skod_levenshteindamerau
