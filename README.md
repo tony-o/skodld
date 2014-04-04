@@ -90,6 +90,6 @@ r	8	3	2	1	1	2
 	8	4	3	2	2	1	
 ```
 
-#license
+#License
 This modoule is free software, distributed under Artistic License.
 this thing is free, use it however you want
