@@ -1,6 +1,6 @@
 {
   "name":"levenshtein-damerau"
-  ,"version":"v0.1.0-2"
+  ,"version":"v0.1.0"
   ,"homepage":"http://skod.it"
   ,"main":"skodld"
   ,"repository":{
