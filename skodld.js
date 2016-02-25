@@ -5,6 +5,11 @@ var ld = function(src,tgt,debug){
   }else if(tgt.length == 0){
     return src.length;
   }
+  if (tgt.length > src.length){
+    var tmp = src;
+    src = tgt;
+    tgt = src;
+  }
   var score = [];
   var sdump = function(){
     if(!debug){ return; }
