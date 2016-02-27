@@ -8,7 +8,7 @@ var ld = function(src,tgt,debug){
   if (tgt.length > src.length){
     var tmp = src;
     src = tgt;
-    tgt = src;
+    tgt = tmp;
   }
   var score = [];
   var sdump = function(){
